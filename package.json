@@ -23,6 +23,8 @@
     "Tom Chenl (https://github.com/tomchentw)"
   ],
   "devDependencies": {
+    "chalk": "1.1.3",
+    "commander": "2.9.0",
     "grunt": "1.0.1",
     "grunt-cli": "1.2.0",
     "grunt-contrib-concat": "1.0.1",
