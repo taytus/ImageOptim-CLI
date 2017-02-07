@@ -1,18 +1,20 @@
 #!/usr/bin/env node
 
+require('babel-register');
+
 // node modules
-var path = require('path');
+const path = require('path');
 
 // 3rd party modules
-var chalk = require('chalk');
-var program = require('commander');
+const chalk = require('chalk');
+const program = require('commander');
 
 // modules
-var cli = require('./src/cli');
-var version = require('./package.json').version;
+const cli = require('./src/cli');
+const version = require('./package.json').version;
 
 // implementation
-var patternsValue = [process.cwd()];
+let patternsValue = [process.cwd()];
 
 program
   .version(version)

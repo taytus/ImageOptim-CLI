@@ -1,7 +1,7 @@
 // modules
-var displayFailure = require('./display-failure');
-var displaySummary = require('./display-summary');
-var optimise = require('../optimise');
+const displayFailure = require('./display-failure');
+const displaySummary = require('./display-summary');
+const optimise = require('../optimise');
 
 // public
 module.exports = {

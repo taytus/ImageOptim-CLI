@@ -22,9 +22,20 @@
     "Stefan Crain (https://github.com/stefancrain)",
     "Tom Chenl (https://github.com/tomchentw)"
   ],
-  "devDependencies": {
+  "dependencies": {
+    "babel-preset-env": "1.1.8",
+    "babel-preset-stage-3": "6.22.0",
+    "babel-register": "6.22.0",
+    "babelify": "7.3.0",
+    "browserify": "14.0.0",
     "chalk": "1.1.3",
     "commander": "2.9.0",
+    "glob": "7.1.1",
+    "gulp": "3.9.1",
+    "untildify": "3.0.2",
+    "vinyl-source-stream": "1.1.0"
+  },
+  "devDependencies": {
     "grunt": "1.0.1",
     "grunt-cli": "1.2.0",
     "grunt-contrib-concat": "1.0.1",
@@ -60,7 +71,7 @@
     "url": "git://github.com/JamieMason/ImageOptim-CLI.git"
   },
   "scripts": {
-    "build": "grunt build",
-    "watch": "grunt watch"
+    "build": "gulp build",
+    "watch": "gulp watch"
   }
 }
